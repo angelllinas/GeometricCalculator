@@ -9,4 +9,4 @@ the hypotenuse of a right triangle.
 ## Install
 [geometriccalculator.exe ](./calculadora/Release/setup.exe)
 
-[geometriccalculator.msi](./calculadora/release/calculadora.msi)
+[geometriccalculator.msi](./calculadora/Release/calculadora.msi)
