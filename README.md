@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # GeometricCalculator
-=======
-# calculadora_figuras_geometricas
->>>>>>> e59bbaa6dad789ff45a83be47e26690463aac3ca
+
 The program allows users to carry out calculations to find the area of the most common geometric figures 
 such as square, rectangle, circle and triangle through various methods in addition to allowing to find 
 the hypotenuse of a right triangle.
