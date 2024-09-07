@@ -28,201 +28,163 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelTitulo = new System.Windows.Forms.Label();
-            this.labelLado = new System.Windows.Forms.Label();
-            this.tb_ingreso_lado = new System.Windows.Forms.TextBox();
-            this.tb_salida_lado = new System.Windows.Forms.TextBox();
-            this.labelIgual1 = new System.Windows.Forms.Label();
-            this.tb_ingreso_diagonal = new System.Windows.Forms.TextBox();
-            this.labelDiagonal = new System.Windows.Forms.Label();
-            this.tb_salida_diagonal = new System.Windows.Forms.TextBox();
-            this.labelIgual2 = new System.Windows.Forms.Label();
-            this.bt_ejecutar_lado = new System.Windows.Forms.Button();
-            this.bt_ejecutar_diagonal = new System.Windows.Forms.Button();
-            this.labelPerimetro = new System.Windows.Forms.Label();
-            this.tb_ingreso_perimetro = new System.Windows.Forms.TextBox();
-            this.tb_salida_perimetro = new System.Windows.Forms.TextBox();
-            this.labelIgual3 = new System.Windows.Forms.Label();
-            this.bt_ejecutar_perimetro = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            labelTitulo = new Label();
+            labelLado = new Label();
+            tb_ingreso_lado = new TextBox();
+            tb_salida_lado = new TextBox();
+            tb_ingreso_diagonal = new TextBox();
+            labelDiagonal = new Label();
+            tb_salida_diagonal = new TextBox();
+            bt_ejecutar_lado = new Button();
+            bt_ejecutar_diagonal = new Button();
+            labelPerimetro = new Label();
+            tb_ingreso_perimetro = new TextBox();
+            tb_salida_perimetro = new TextBox();
+            bt_ejecutar_perimetro = new Button();
+            SuspendLayout();
             // 
             // labelTitulo
             // 
-            this.labelTitulo.AutoSize = true;
-            this.labelTitulo.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelTitulo.Location = new System.Drawing.Point(184, 24);
-            this.labelTitulo.Name = "labelTitulo";
-            this.labelTitulo.Size = new System.Drawing.Size(261, 25);
-            this.labelTitulo.TabIndex = 0;
-            this.labelTitulo.Text = "Calcular área de un cuadrado";
+            labelTitulo.AutoSize = true;
+            labelTitulo.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            labelTitulo.Location = new Point(184, 24);
+            labelTitulo.Name = "labelTitulo";
+            labelTitulo.Size = new Size(261, 25);
+            labelTitulo.TabIndex = 0;
+            labelTitulo.Text = "Calcular área de un cuadrado";
             // 
             // labelLado
             // 
-            this.labelLado.AutoSize = true;
-            this.labelLado.Location = new System.Drawing.Point(100, 96);
-            this.labelLado.Name = "labelLado";
-            this.labelLado.Size = new System.Drawing.Size(89, 15);
-            this.labelLado.TabIndex = 1;
-            this.labelLado.Text = "Insertar un lado";
+            labelLado.AutoSize = true;
+            labelLado.Location = new Point(100, 96);
+            labelLado.Name = "labelLado";
+            labelLado.Size = new Size(89, 15);
+            labelLado.TabIndex = 1;
+            labelLado.Text = "Insertar un lado";
             // 
             // tb_ingreso_lado
             // 
-            this.tb_ingreso_lado.Location = new System.Drawing.Point(100, 123);
-            this.tb_ingreso_lado.Name = "tb_ingreso_lado";
-            this.tb_ingreso_lado.Size = new System.Drawing.Size(114, 23);
-            this.tb_ingreso_lado.TabIndex = 2;
-            this.tb_ingreso_lado.TextChanged += new System.EventHandler(this.tb_ingreso_lado_TextChanged);
-            this.tb_ingreso_lado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_ingreso_lado_KeyPress);
+            tb_ingreso_lado.Location = new Point(100, 123);
+            tb_ingreso_lado.Name = "tb_ingreso_lado";
+            tb_ingreso_lado.Size = new Size(114, 23);
+            tb_ingreso_lado.TabIndex = 2;
+            tb_ingreso_lado.TextChanged += tb_ingreso_lado_TextChanged;
+            tb_ingreso_lado.KeyPress += tb_ingreso_lado_KeyPress;
             // 
             // tb_salida_lado
             // 
-            this.tb_salida_lado.Enabled = false;
-            this.tb_salida_lado.Location = new System.Drawing.Point(241, 123);
-            this.tb_salida_lado.Name = "tb_salida_lado";
-            this.tb_salida_lado.Size = new System.Drawing.Size(114, 23);
-            this.tb_salida_lado.TabIndex = 3;
-            // 
-            // labelIgual1
-            // 
-            this.labelIgual1.AutoSize = true;
-            this.labelIgual1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelIgual1.Location = new System.Drawing.Point(214, 125);
-            this.labelIgual1.Name = "labelIgual1";
-            this.labelIgual1.Size = new System.Drawing.Size(21, 21);
-            this.labelIgual1.TabIndex = 4;
-            this.labelIgual1.Text = "=";
-            this.labelIgual1.Click += new System.EventHandler(this.labelIgual1_Click);
+            tb_salida_lado.Enabled = false;
+            tb_salida_lado.Location = new Point(241, 123);
+            tb_salida_lado.Name = "tb_salida_lado";
+            tb_salida_lado.Size = new Size(114, 23);
+            tb_salida_lado.TabIndex = 3;
             // 
             // tb_ingreso_diagonal
             // 
-            this.tb_ingreso_diagonal.Location = new System.Drawing.Point(100, 215);
-            this.tb_ingreso_diagonal.Name = "tb_ingreso_diagonal";
-            this.tb_ingreso_diagonal.Size = new System.Drawing.Size(114, 23);
-            this.tb_ingreso_diagonal.TabIndex = 5;
-            this.tb_ingreso_diagonal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_ingreso_diagonal_KeyPress);
+            tb_ingreso_diagonal.Location = new Point(100, 215);
+            tb_ingreso_diagonal.Name = "tb_ingreso_diagonal";
+            tb_ingreso_diagonal.Size = new Size(114, 23);
+            tb_ingreso_diagonal.TabIndex = 5;
+            tb_ingreso_diagonal.KeyPress += tb_ingreso_diagonal_KeyPress;
             // 
             // labelDiagonal
             // 
-            this.labelDiagonal.AutoSize = true;
-            this.labelDiagonal.Location = new System.Drawing.Point(100, 187);
-            this.labelDiagonal.Name = "labelDiagonal";
-            this.labelDiagonal.Size = new System.Drawing.Size(107, 15);
-            this.labelDiagonal.TabIndex = 6;
-            this.labelDiagonal.Text = "Insertar la diagonal";
-            this.labelDiagonal.Click += new System.EventHandler(this.label1_Click);
+            labelDiagonal.AutoSize = true;
+            labelDiagonal.Location = new Point(100, 187);
+            labelDiagonal.Name = "labelDiagonal";
+            labelDiagonal.Size = new Size(107, 15);
+            labelDiagonal.TabIndex = 6;
+            labelDiagonal.Text = "Insertar la diagonal";
+            labelDiagonal.Click += label1_Click;
             // 
             // tb_salida_diagonal
             // 
-            this.tb_salida_diagonal.Enabled = false;
-            this.tb_salida_diagonal.Location = new System.Drawing.Point(241, 215);
-            this.tb_salida_diagonal.Name = "tb_salida_diagonal";
-            this.tb_salida_diagonal.Size = new System.Drawing.Size(114, 23);
-            this.tb_salida_diagonal.TabIndex = 7;
-            // 
-            // labelIgual2
-            // 
-            this.labelIgual2.AutoSize = true;
-            this.labelIgual2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelIgual2.Location = new System.Drawing.Point(214, 217);
-            this.labelIgual2.Name = "labelIgual2";
-            this.labelIgual2.Size = new System.Drawing.Size(21, 21);
-            this.labelIgual2.TabIndex = 8;
-            this.labelIgual2.Text = "=";
+            tb_salida_diagonal.Enabled = false;
+            tb_salida_diagonal.Location = new Point(241, 215);
+            tb_salida_diagonal.Name = "tb_salida_diagonal";
+            tb_salida_diagonal.Size = new Size(114, 23);
+            tb_salida_diagonal.TabIndex = 7;
             // 
             // bt_ejecutar_lado
             // 
-            this.bt_ejecutar_lado.Location = new System.Drawing.Point(370, 123);
-            this.bt_ejecutar_lado.Name = "bt_ejecutar_lado";
-            this.bt_ejecutar_lado.Size = new System.Drawing.Size(75, 23);
-            this.bt_ejecutar_lado.TabIndex = 9;
-            this.bt_ejecutar_lado.Text = "ejecutar";
-            this.bt_ejecutar_lado.UseVisualStyleBackColor = true;
-            this.bt_ejecutar_lado.Click += new System.EventHandler(this.bt_ejecutar_lado_Click);
+            bt_ejecutar_lado.Location = new Point(370, 123);
+            bt_ejecutar_lado.Name = "bt_ejecutar_lado";
+            bt_ejecutar_lado.Size = new Size(75, 23);
+            bt_ejecutar_lado.TabIndex = 9;
+            bt_ejecutar_lado.Text = "ejecutar";
+            bt_ejecutar_lado.UseVisualStyleBackColor = true;
+            bt_ejecutar_lado.Click += bt_ejecutar_lado_Click;
             // 
             // bt_ejecutar_diagonal
             // 
-            this.bt_ejecutar_diagonal.Location = new System.Drawing.Point(370, 215);
-            this.bt_ejecutar_diagonal.Name = "bt_ejecutar_diagonal";
-            this.bt_ejecutar_diagonal.Size = new System.Drawing.Size(75, 23);
-            this.bt_ejecutar_diagonal.TabIndex = 10;
-            this.bt_ejecutar_diagonal.Text = "ejecutar";
-            this.bt_ejecutar_diagonal.UseVisualStyleBackColor = true;
-            this.bt_ejecutar_diagonal.Click += new System.EventHandler(this.bt_ejecutar_diagonal_Click);
+            bt_ejecutar_diagonal.Location = new Point(370, 215);
+            bt_ejecutar_diagonal.Name = "bt_ejecutar_diagonal";
+            bt_ejecutar_diagonal.Size = new Size(75, 23);
+            bt_ejecutar_diagonal.TabIndex = 10;
+            bt_ejecutar_diagonal.Text = "ejecutar";
+            bt_ejecutar_diagonal.UseVisualStyleBackColor = true;
+            bt_ejecutar_diagonal.Click += bt_ejecutar_diagonal_Click;
             // 
             // labelPerimetro
             // 
-            this.labelPerimetro.AutoSize = true;
-            this.labelPerimetro.Location = new System.Drawing.Point(100, 278);
-            this.labelPerimetro.Name = "labelPerimetro";
-            this.labelPerimetro.Size = new System.Drawing.Size(113, 15);
-            this.labelPerimetro.TabIndex = 11;
-            this.labelPerimetro.Text = "Insertar el perimetro";
+            labelPerimetro.AutoSize = true;
+            labelPerimetro.Location = new Point(100, 278);
+            labelPerimetro.Name = "labelPerimetro";
+            labelPerimetro.Size = new Size(113, 15);
+            labelPerimetro.TabIndex = 11;
+            labelPerimetro.Text = "Insertar el perimetro";
             // 
             // tb_ingreso_perimetro
             // 
-            this.tb_ingreso_perimetro.Location = new System.Drawing.Point(100, 307);
-            this.tb_ingreso_perimetro.Name = "tb_ingreso_perimetro";
-            this.tb_ingreso_perimetro.Size = new System.Drawing.Size(114, 23);
-            this.tb_ingreso_perimetro.TabIndex = 12;
-            this.tb_ingreso_perimetro.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_ingreso_perimetro_KeyPress);
+            tb_ingreso_perimetro.Location = new Point(100, 307);
+            tb_ingreso_perimetro.Name = "tb_ingreso_perimetro";
+            tb_ingreso_perimetro.Size = new Size(114, 23);
+            tb_ingreso_perimetro.TabIndex = 12;
+            tb_ingreso_perimetro.KeyPress += tb_ingreso_perimetro_KeyPress;
             // 
             // tb_salida_perimetro
             // 
-            this.tb_salida_perimetro.Enabled = false;
-            this.tb_salida_perimetro.Location = new System.Drawing.Point(241, 308);
-            this.tb_salida_perimetro.Name = "tb_salida_perimetro";
-            this.tb_salida_perimetro.Size = new System.Drawing.Size(114, 23);
-            this.tb_salida_perimetro.TabIndex = 13;
-            // 
-            // labelIgual3
-            // 
-            this.labelIgual3.AutoSize = true;
-            this.labelIgual3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelIgual3.Location = new System.Drawing.Point(214, 310);
-            this.labelIgual3.Name = "labelIgual3";
-            this.labelIgual3.Size = new System.Drawing.Size(21, 21);
-            this.labelIgual3.TabIndex = 14;
-            this.labelIgual3.Text = "=";
+            tb_salida_perimetro.Enabled = false;
+            tb_salida_perimetro.Location = new Point(241, 308);
+            tb_salida_perimetro.Name = "tb_salida_perimetro";
+            tb_salida_perimetro.Size = new Size(114, 23);
+            tb_salida_perimetro.TabIndex = 13;
             // 
             // bt_ejecutar_perimetro
             // 
-            this.bt_ejecutar_perimetro.Location = new System.Drawing.Point(370, 308);
-            this.bt_ejecutar_perimetro.Name = "bt_ejecutar_perimetro";
-            this.bt_ejecutar_perimetro.Size = new System.Drawing.Size(75, 23);
-            this.bt_ejecutar_perimetro.TabIndex = 15;
-            this.bt_ejecutar_perimetro.Text = "ejecutar";
-            this.bt_ejecutar_perimetro.UseVisualStyleBackColor = true;
-            this.bt_ejecutar_perimetro.Click += new System.EventHandler(this.bt_ejecutar_perimetro_Click);
+            bt_ejecutar_perimetro.Location = new Point(370, 308);
+            bt_ejecutar_perimetro.Name = "bt_ejecutar_perimetro";
+            bt_ejecutar_perimetro.Size = new Size(75, 23);
+            bt_ejecutar_perimetro.TabIndex = 15;
+            bt_ejecutar_perimetro.Text = "ejecutar";
+            bt_ejecutar_perimetro.UseVisualStyleBackColor = true;
+            bt_ejecutar_perimetro.Click += bt_ejecutar_perimetro_Click;
             // 
             // FormAreaCuadrado
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(661, 450);
-            this.Controls.Add(this.bt_ejecutar_perimetro);
-            this.Controls.Add(this.labelIgual3);
-            this.Controls.Add(this.tb_salida_perimetro);
-            this.Controls.Add(this.tb_ingreso_perimetro);
-            this.Controls.Add(this.labelPerimetro);
-            this.Controls.Add(this.bt_ejecutar_diagonal);
-            this.Controls.Add(this.bt_ejecutar_lado);
-            this.Controls.Add(this.labelIgual2);
-            this.Controls.Add(this.tb_salida_diagonal);
-            this.Controls.Add(this.labelDiagonal);
-            this.Controls.Add(this.tb_ingreso_diagonal);
-            this.Controls.Add(this.labelIgual1);
-            this.Controls.Add(this.tb_salida_lado);
-            this.Controls.Add(this.tb_ingreso_lado);
-            this.Controls.Add(this.labelLado);
-            this.Controls.Add(this.labelTitulo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximumSize = new System.Drawing.Size(661, 450);
-            this.MinimumSize = new System.Drawing.Size(661, 450);
-            this.Name = "FormAreaCuadrado";
-            this.Text = "FormAreaCuadrado";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(661, 450);
+            Controls.Add(bt_ejecutar_perimetro);
+            Controls.Add(tb_salida_perimetro);
+            Controls.Add(tb_ingreso_perimetro);
+            Controls.Add(labelPerimetro);
+            Controls.Add(bt_ejecutar_diagonal);
+            Controls.Add(bt_ejecutar_lado);
+            Controls.Add(tb_salida_diagonal);
+            Controls.Add(labelDiagonal);
+            Controls.Add(tb_ingreso_diagonal);
+            Controls.Add(tb_salida_lado);
+            Controls.Add(tb_ingreso_lado);
+            Controls.Add(labelLado);
+            Controls.Add(labelTitulo);
+            FormBorderStyle = FormBorderStyle.None;
+            MaximumSize = new Size(661, 450);
+            MinimumSize = new Size(661, 450);
+            Name = "FormAreaCuadrado";
+            Text = "FormAreaCuadrado";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -231,17 +193,14 @@
         private Label labelLado;
         private TextBox tb_ingreso_lado;
         private TextBox tb_salida_lado;
-        private Label labelIgual1;
         private TextBox tb_ingreso_diagonal;
         private Label labelDiagonal;
         private TextBox tb_salida_diagonal;
-        private Label labelIgual2;
         private Button bt_ejecutar_lado;
         private Button bt_ejecutar_diagonal;
         private Label labelPerimetro;
         private TextBox tb_ingreso_perimetro;
         private TextBox tb_salida_perimetro;
-        private Label labelIgual3;
         private Button bt_ejecutar_perimetro;
     }
 }

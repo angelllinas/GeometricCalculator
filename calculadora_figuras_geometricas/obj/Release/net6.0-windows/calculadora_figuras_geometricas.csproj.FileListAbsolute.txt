@@ -21,3 +21,26 @@ C:\Users\HP\source\repos\calculadora_figuras_geometricas\calculadora_figuras_geo
 C:\Users\HP\source\repos\calculadora_figuras_geometricas\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.pdb
 C:\Users\HP\source\repos\calculadora_figuras_geometricas\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.genruntimeconfig.cache
 C:\Users\HP\source\repos\calculadora_figuras_geometricas\calculadora_figuras_geometricas\obj\Release\net6.0-windows\ref\calculadora_figuras_geometricas.dll
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\bin\Release\net6.0-windows\calculadora_figuras_geometricas.exe
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\bin\Release\net6.0-windows\calculadora_figuras_geometricas.dll.config
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\bin\Release\net6.0-windows\calculadora_figuras_geometricas.deps.json
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\bin\Release\net6.0-windows\calculadora_figuras_geometricas.runtimeconfig.json
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\bin\Release\net6.0-windows\calculadora_figuras_geometricas.dll
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\bin\Release\net6.0-windows\calculadora_figuras_geometricas.pdb
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.FormAreaCirculo.resources
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.FormAreaCuadrado.resources
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.FormAreaRectangulo.resources
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.FormAreaTrianguloEquilatero.resources
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.FormHipotenusaTrianguloRectangulo.resources
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.FormPrincipal.resources
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.csproj.GenerateResource.cache
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.AssemblyInfoInputs.cache
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.AssemblyInfo.cs
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.csproj.CoreCompileInputs.cache
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.sourcelink.json
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.dll
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\refint\calculadora_figuras_geometricas.dll
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.pdb
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\calculadora_figuras_geometricas.genruntimeconfig.cache
+C:\Users\angelllinas\Documents\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\GeometricCalculator\calculadora_figuras_geometricas\obj\Release\net6.0-windows\ref\calculadora_figuras_geometricas.dll

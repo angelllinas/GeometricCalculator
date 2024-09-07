@@ -28,163 +28,138 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelTitulo = new System.Windows.Forms.Label();
-            this.tb_ingresar_lado1 = new System.Windows.Forms.TextBox();
-            this.tb_salida1 = new System.Windows.Forms.TextBox();
-            this.labelLado = new System.Windows.Forms.Label();
-            this.labelIgual = new System.Windows.Forms.Label();
-            this.tb_ingresar_lado2 = new System.Windows.Forms.TextBox();
-            this.tb_ingresar_altura = new System.Windows.Forms.TextBox();
-            this.tb_salida2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.bt_ejecutar1 = new System.Windows.Forms.Button();
-            this.bt_ejecutar2 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            labelTitulo = new Label();
+            tb_ingresar_lado1 = new TextBox();
+            tb_salida1 = new TextBox();
+            labelLado = new Label();
+            tb_ingresar_lado2 = new TextBox();
+            tb_ingresar_altura = new TextBox();
+            tb_salida2 = new TextBox();
+            label3 = new Label();
+            label4 = new Label();
+            bt_ejecutar1 = new Button();
+            bt_ejecutar2 = new Button();
+            SuspendLayout();
             // 
             // labelTitulo
             // 
-            this.labelTitulo.AutoSize = true;
-            this.labelTitulo.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelTitulo.Location = new System.Drawing.Point(126, 27);
-            this.labelTitulo.Name = "labelTitulo";
-            this.labelTitulo.Size = new System.Drawing.Size(351, 25);
-            this.labelTitulo.TabIndex = 1;
-            this.labelTitulo.Text = "Calcular área de un triángulo equilatero";
-            this.labelTitulo.Click += new System.EventHandler(this.labelTitulo_Click);
+            labelTitulo.AutoSize = true;
+            labelTitulo.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            labelTitulo.Location = new Point(126, 27);
+            labelTitulo.Name = "labelTitulo";
+            labelTitulo.Size = new Size(351, 25);
+            labelTitulo.TabIndex = 1;
+            labelTitulo.Text = "Calcular área de un triángulo equilatero";
+            labelTitulo.Click += labelTitulo_Click;
             // 
             // tb_ingresar_lado1
             // 
-            this.tb_ingresar_lado1.Location = new System.Drawing.Point(73, 131);
-            this.tb_ingresar_lado1.Name = "tb_ingresar_lado1";
-            this.tb_ingresar_lado1.Size = new System.Drawing.Size(122, 23);
-            this.tb_ingresar_lado1.TabIndex = 2;
-            this.tb_ingresar_lado1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_ingresar_lado1_KeyPress);
+            tb_ingresar_lado1.Location = new Point(73, 131);
+            tb_ingresar_lado1.Name = "tb_ingresar_lado1";
+            tb_ingresar_lado1.Size = new Size(122, 23);
+            tb_ingresar_lado1.TabIndex = 2;
+            tb_ingresar_lado1.KeyPress += tb_ingresar_lado1_KeyPress;
             // 
             // tb_salida1
             // 
-            this.tb_salida1.Enabled = false;
-            this.tb_salida1.Location = new System.Drawing.Point(228, 131);
-            this.tb_salida1.Name = "tb_salida1";
-            this.tb_salida1.Size = new System.Drawing.Size(122, 23);
-            this.tb_salida1.TabIndex = 3;
+            tb_salida1.Enabled = false;
+            tb_salida1.Location = new Point(228, 131);
+            tb_salida1.Name = "tb_salida1";
+            tb_salida1.Size = new Size(122, 23);
+            tb_salida1.TabIndex = 3;
             // 
             // labelLado
             // 
-            this.labelLado.AutoSize = true;
-            this.labelLado.Location = new System.Drawing.Point(73, 113);
-            this.labelLado.Name = "labelLado";
-            this.labelLado.Size = new System.Drawing.Size(75, 15);
-            this.labelLado.TabIndex = 4;
-            this.labelLado.Text = "Ingresar lado";
-            // 
-            // labelIgual
-            // 
-            this.labelIgual.AutoSize = true;
-            this.labelIgual.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelIgual.Location = new System.Drawing.Point(201, 133);
-            this.labelIgual.Name = "labelIgual";
-            this.labelIgual.Size = new System.Drawing.Size(21, 21);
-            this.labelIgual.TabIndex = 5;
-            this.labelIgual.Text = "=";
+            labelLado.AutoSize = true;
+            labelLado.Location = new Point(73, 113);
+            labelLado.Name = "labelLado";
+            labelLado.Size = new Size(75, 15);
+            labelLado.TabIndex = 4;
+            labelLado.Text = "Ingresar lado";
             // 
             // tb_ingresar_lado2
             // 
-            this.tb_ingresar_lado2.Location = new System.Drawing.Point(73, 201);
-            this.tb_ingresar_lado2.Name = "tb_ingresar_lado2";
-            this.tb_ingresar_lado2.Size = new System.Drawing.Size(122, 23);
-            this.tb_ingresar_lado2.TabIndex = 6;
-            this.tb_ingresar_lado2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_ingresar_lado2_KeyPress);
+            tb_ingresar_lado2.Location = new Point(73, 201);
+            tb_ingresar_lado2.Name = "tb_ingresar_lado2";
+            tb_ingresar_lado2.Size = new Size(122, 23);
+            tb_ingresar_lado2.TabIndex = 6;
+            tb_ingresar_lado2.KeyPress += tb_ingresar_lado2_KeyPress;
             // 
             // tb_ingresar_altura
             // 
-            this.tb_ingresar_altura.Location = new System.Drawing.Point(228, 201);
-            this.tb_ingresar_altura.Name = "tb_ingresar_altura";
-            this.tb_ingresar_altura.Size = new System.Drawing.Size(122, 23);
-            this.tb_ingresar_altura.TabIndex = 7;
-            this.tb_ingresar_altura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_ingresar_altura_KeyPress);
+            tb_ingresar_altura.Location = new Point(228, 201);
+            tb_ingresar_altura.Name = "tb_ingresar_altura";
+            tb_ingresar_altura.Size = new Size(122, 23);
+            tb_ingresar_altura.TabIndex = 7;
+            tb_ingresar_altura.KeyPress += tb_ingresar_altura_KeyPress;
             // 
             // tb_salida2
             // 
-            this.tb_salida2.Enabled = false;
-            this.tb_salida2.Location = new System.Drawing.Point(383, 203);
-            this.tb_salida2.Name = "tb_salida2";
-            this.tb_salida2.Size = new System.Drawing.Size(122, 23);
-            this.tb_salida2.TabIndex = 8;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(356, 203);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(21, 21);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "=";
+            tb_salida2.Enabled = false;
+            tb_salida2.Location = new Point(383, 203);
+            tb_salida2.Name = "tb_salida2";
+            tb_salida2.Size = new Size(122, 23);
+            tb_salida2.TabIndex = 8;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(73, 183);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 15);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Ingresar lado";
+            label3.AutoSize = true;
+            label3.Location = new Point(73, 183);
+            label3.Name = "label3";
+            label3.Size = new Size(75, 15);
+            label3.TabIndex = 11;
+            label3.Text = "Ingresar lado";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(228, 183);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 15);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Ingresar altura";
+            label4.AutoSize = true;
+            label4.Location = new Point(228, 183);
+            label4.Name = "label4";
+            label4.Size = new Size(82, 15);
+            label4.TabIndex = 12;
+            label4.Text = "Ingresar altura";
             // 
             // bt_ejecutar1
             // 
-            this.bt_ejecutar1.Location = new System.Drawing.Point(372, 131);
-            this.bt_ejecutar1.Name = "bt_ejecutar1";
-            this.bt_ejecutar1.Size = new System.Drawing.Size(86, 23);
-            this.bt_ejecutar1.TabIndex = 13;
-            this.bt_ejecutar1.Text = "ejecutar";
-            this.bt_ejecutar1.UseVisualStyleBackColor = true;
-            this.bt_ejecutar1.Click += new System.EventHandler(this.bt_ejecutar1_Click);
+            bt_ejecutar1.Location = new Point(372, 131);
+            bt_ejecutar1.Name = "bt_ejecutar1";
+            bt_ejecutar1.Size = new Size(86, 23);
+            bt_ejecutar1.TabIndex = 13;
+            bt_ejecutar1.Text = "ejecutar";
+            bt_ejecutar1.UseVisualStyleBackColor = true;
+            bt_ejecutar1.Click += bt_ejecutar1_Click;
             // 
             // bt_ejecutar2
             // 
-            this.bt_ejecutar2.Location = new System.Drawing.Point(528, 204);
-            this.bt_ejecutar2.Name = "bt_ejecutar2";
-            this.bt_ejecutar2.Size = new System.Drawing.Size(86, 23);
-            this.bt_ejecutar2.TabIndex = 14;
-            this.bt_ejecutar2.Text = "ejecutar";
-            this.bt_ejecutar2.UseVisualStyleBackColor = true;
-            this.bt_ejecutar2.Click += new System.EventHandler(this.bt_ejecutar2_Click);
+            bt_ejecutar2.Location = new Point(528, 204);
+            bt_ejecutar2.Name = "bt_ejecutar2";
+            bt_ejecutar2.Size = new Size(86, 23);
+            bt_ejecutar2.TabIndex = 14;
+            bt_ejecutar2.Text = "ejecutar";
+            bt_ejecutar2.UseVisualStyleBackColor = true;
+            bt_ejecutar2.Click += bt_ejecutar2_Click;
             // 
             // FormAreaTrianguloEquilatero
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(661, 450);
-            this.Controls.Add(this.bt_ejecutar2);
-            this.Controls.Add(this.bt_ejecutar1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.tb_salida2);
-            this.Controls.Add(this.tb_ingresar_altura);
-            this.Controls.Add(this.tb_ingresar_lado2);
-            this.Controls.Add(this.labelIgual);
-            this.Controls.Add(this.labelLado);
-            this.Controls.Add(this.tb_salida1);
-            this.Controls.Add(this.tb_ingresar_lado1);
-            this.Controls.Add(this.labelTitulo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormAreaTrianguloEquilatero";
-            this.Text = "FormAreaTrianguloEquilatero";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(661, 450);
+            Controls.Add(bt_ejecutar2);
+            Controls.Add(bt_ejecutar1);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(tb_salida2);
+            Controls.Add(tb_ingresar_altura);
+            Controls.Add(tb_ingresar_lado2);
+            Controls.Add(labelLado);
+            Controls.Add(tb_salida1);
+            Controls.Add(tb_ingresar_lado1);
+            Controls.Add(labelTitulo);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "FormAreaTrianguloEquilatero";
+            Text = "FormAreaTrianguloEquilatero";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -193,11 +168,9 @@
         private TextBox tb_ingresar_lado1;
         private TextBox tb_salida1;
         private Label labelLado;
-        private Label labelIgual;
         private TextBox tb_ingresar_lado2;
         private TextBox tb_ingresar_altura;
         private TextBox tb_salida2;
-        private Label label2;
         private Label label3;
         private Label label4;
         private Button bt_ejecutar1;

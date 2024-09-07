@@ -64,5 +64,9 @@ namespace calculadora_figuras_geometricas
             }
         }
 
+        private void labelSuma_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
