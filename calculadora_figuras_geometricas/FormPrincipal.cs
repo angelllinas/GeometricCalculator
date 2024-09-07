@@ -5,6 +5,11 @@ namespace calculadora_figuras_geometricas
         public FormPrincipal()
         {
             InitializeComponent();
+            panelOperatos.Controls.Clear();
+            FormAreaTrianguloEquilatero fate = new FormAreaTrianguloEquilatero();
+            fate.TopLevel = false;
+            panelOperatos.Controls.Add(fate);
+            fate.Show();
         }
 
         private void FormPrincipal_Load(object sender, EventArgs e)

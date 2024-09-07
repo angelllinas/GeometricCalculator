@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pZW3KA1PeOhpUwMiBjUTk4+7N7gDcFsPEnmEGlIrWEluV8/yCwNBuICU5/T4JaIS5yhAEsyYuyTMa/n4/81n1g==",
+  "dgSpecHash": "NwcTSwX0GhA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\calculadora_figuras_geometricas\\calculadora_figuras_geometricas\\calculadora_figuras_geometricas.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\angelllinas\\Documents\\LENGUAJES DE PROGRAMACIÓN - (204024A_1704)\\GeometricCalculator\\calculadora_figuras_geometricas\\calculadora_figuras_geometricas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\angelllinas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\angelllinas\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\angelllinas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\angelllinas\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }

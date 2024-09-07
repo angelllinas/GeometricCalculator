@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculadora_figuras_geometr
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "calculadora", "calculadora\calculadora.vdproj", "{770893D5-71BC-4D70-9498-20C7E77CB217}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CalculadoraGeometrica", "CalculadoraGeometrica\CalculadoraGeometrica.vdproj", "{4896EC45-DC26-46C8-9B95-B661141E0DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,8 @@ Global
 		{5553F158-5073-4850-92C3-C840352FB029}.Release|Any CPU.Build.0 = Release|Any CPU
 		{770893D5-71BC-4D70-9498-20C7E77CB217}.Debug|Any CPU.ActiveCfg = Debug
 		{770893D5-71BC-4D70-9498-20C7E77CB217}.Release|Any CPU.ActiveCfg = Release
+		{4896EC45-DC26-46C8-9B95-B661141E0DD4}.Debug|Any CPU.ActiveCfg = Debug
+		{4896EC45-DC26-46C8-9B95-B661141E0DD4}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
